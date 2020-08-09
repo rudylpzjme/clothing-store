@@ -3,6 +3,11 @@
 An e commerce app created with React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+ - Node ^8.13.0 || >=10.10.0
+ - Yarn 1.9.2
+
+
 ## Available Scripts
 
 In the project directory, you can run:
