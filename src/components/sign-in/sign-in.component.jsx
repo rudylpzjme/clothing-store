@@ -23,7 +23,6 @@ class SignIn extends React.Component {
 
         try {
             await auth.signInWithEmailAndPassword(email, password);
-            this.setState({ email, password });
         } catch (error) {
             console.error(error);
         }
@@ -31,7 +30,6 @@ class SignIn extends React.Component {
 
     handleChange = event => {
         const { value, name } = event.target;
-
         this.setState({ [name]: value });
     }
 
